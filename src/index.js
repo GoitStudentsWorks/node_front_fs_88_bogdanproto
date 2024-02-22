@@ -14,7 +14,7 @@ root.render(
   <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
       <LocalizationProvider dateAdapter={AdapterDayjs}>
-        <BrowserRouter>
+        <BrowserRouter basename="/node_front_fs_88_bogdanproto/">
           <App />
         </BrowserRouter>
       </LocalizationProvider>
